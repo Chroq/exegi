@@ -3,7 +3,7 @@
 
 
 # https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact
-ARG NODE_VERSION=11
+ARG NODE_VERSION=13
 ARG NGINX_VERSION=1.17
 
 
@@ -26,6 +26,8 @@ RUN set -eux; \
 COPY . ./
 
 VOLUME /usr/src/admin/node_modules
+
+ENV HTTPS true
 
 CMD ["yarn", "start"]
 

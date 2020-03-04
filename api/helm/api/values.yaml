@@ -52,11 +52,12 @@ postgresql:
 
 mercure:
   enabled: true
-  publishUrl: http://mercure/hub
-  subscribeUrl: https://mercure.example.com/hub
+  publishUrl: http://mercure/.well-known/mercure
+  subscribeUrl: https://mercure.example.com/.well-known/mercure
   allowAnonymous: "1"
   corsAllowedOrigins: "^https?://.*?\\.example\\.com$"
   acmeHosts: "" # TODO: Fix the Mercure chart
+  jwtKey: ""
   service:
     type: NodePort
     port: 80
