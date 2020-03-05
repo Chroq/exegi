@@ -1,18 +1,32 @@
 <div align="center"><img src="client/public/logo.png" alt="API Platform"></div>
 
-Exegi est un outil de design de surface végétale. Orienté vers les synergies ou les antagonismes entre les plantes, les soins à apporter aux différentes zones et une prévision naïve de la production, il permet une conception et un suivi annuel de vos aires de culture.
+Exegi est un outil de **design de surface végétale**. Orienté vers les synergies ou les antagonismes entre les plantes, les soins à apporter aux différentes zones et une prévision naïve de la production, il permet une conception et un suivi annuel de vos aires de culture.
 
 ## Descriptif
 
-Le but est de fournir une ou plusieurs propositions d'agencement vous permettant d'optimiser au mieux votre surface. L'outil vous propose aussi des astuces et conseils pour maximiser l'efficacité de vos zones, préserver les éco-systèmes et limiter les ressources notamment des apports et de l'eau.
+Le but est de fournir une ou plusieurs propositions d'agencement vous permettant d'optimiser au mieux votre surface. L'outil vous propose aussi des astuces et conseils pour maximiser l'efficacité de vos zones, préserver les éco-systèmes et limiter les ressources notamment les apports en intrants et d'eau.
 
 ### Pour quelle type de culture cet outils a-t-il été pensé ?
 
-Principalement pour les potagers avec possibilité de plante d'ornement. Il se veut efficace sur les surfaces limitées (inférieur à 100m²). À l'heure actuelle, il n'y a aucune volonté d'élargir le logiciel à d'autre type de culture (mono-culture, jardin d'ornement spécialisé, culture en serre, etc).
+Principalement pour les **potagers de particulier**. Il souhaite être efficace sur les surfaces limitées (inférieur à 100m²). À l'heure actuelle, il n'y a aucune volonté d'élargir le logiciel à d'autre type de culture (mono-culture intensive, jardin d'ornement spécialisé, culture en serre, etc).
 
 ### À qui s'adresse cet outils ?
 
 Il s'adresse particuliérement aux personnes désireuses de concevoir leurs jardins et n'ayant pas une forte expérience du jardinage.
+
+### D'où viennent les informations que vous fournissez ?
+
+De nombreuses sources d'informations sont sollicités pour réaliser cet outil.
+Une liste exhaustive de ces sources est disponible sur la page idoine et visible sur le descriptif de l'information si celle-ci provient d'un ouvrage ou d'un site internet de référence.
+Un groupe de personnes d'expériences diverses participent aussi activement à la contribution à la base de données de ce site.
+
+### Quel est votre vision de la conception de ces jardins ?
+
+L'idée est de proposer au sein d'un outil informatique **les concepts fondamentaux de la culture**, les enseignements inspirés de **la permaculture** et une approche moderne de **l'écologie**.
+
+### Je ne suis pas d'accord avec une information fournie par votre site !
+
+Il se peut que vous soyez en désaccord avec les conseils proposés par le site, n'hésitez pas à nous remonter votre avis via les formulaires de retour d'expériences proposés. Nous tâcherons de les intégrer dans notre base de connaissance si cela est possible.
 
 ### Quelles garanties ai-je à utiliser cet outil ?
 
