@@ -1,53 +1,63 @@
-<h1 align="center"><a href="https://api-platform.com"><img src="https://api-platform.com/logo-250x250.png" alt="API Platform"></a></h1>
+<div align="center"><img src="client/public/logo.png" alt="API Platform"></div>
 
-API Platform is a next-generation web framework designed to easily create API-first projects without compromising extensibility
-and flexibility:
+Exegi est un outil de **design de surface végétale**. Orienté vers les synergies ou les antagonismes entre les plantes, les soins à apporter aux différentes zones et une prévision naïve de la production, il permet une conception et un suivi annuel de vos aires de culture.
 
-* Design your own data model as plain old PHP classes or [**import an existing one**](https://api-platform.com/docs/schema-generator)
-  from the [Schema.org](https://schema.org/) vocabulary
-* **Expose in minutes a hypermedia REST or a GraphQL API** with pagination, data validation, access control, relation embedding,
-  filters and error handling...
-* Benefit from Content Negotiation: [GraphQL](http://graphql.org), [JSON-LD](http://json-ld.org), [Hydra](http://hydra-cg.com),
-  [HAL](http://stateless.co/hal_specification.html), [JSONAPI](https://jsonapi.org/), [YAML](http://yaml.org/), [JSON](http://www.json.org/), [XML](https://www.w3.org/XML/) and [CSV](https://www.ietf.org/rfc/rfc4180.txt) are supported out of the box
-* Enjoy the **beautiful automatically generated API documentation** (Swagger/[OpenAPI](https://www.openapis.org/))
-* Add [**a convenient Material Design administration interface**](https://api-platform.com/docs/admin) built with [React](https://reactjs.org/)
-  without writing a line of code
-* **Scaffold fully functional Progressive-Web-Apps and mobile apps** built with [React](https://api-platform.com/docs/client-generator/react), [Vue.js](https://api-platform.com/docs/client-generator/vuejs) or [React Native](https://api-platform.com/docs/client-generator/react-native) thanks to [the client
-  generator](https://api-platform.com/docs/client-generator) (a Vue.js generator is also available)
-* Install a development environment and deploy your project in production using **[Docker](https://api-platform.com/docs/distribution#using-the-official-distribution-recommended)** and [Kubernetes](https://api-platform.com/docs/deployment/kubernetes)
-* Easily add **[JSON Web Token](https://api-platform.com/docs/core/jwt) or [OAuth](https://oauth.net/) authentication**
-* Create specs and tests with a **developer friendly API testing tool** on top of [Behat](http://behat.org/)
+## Descriptif
 
-[![Build Status](https://travis-ci.org/api-platform/core.svg?branch=master)](https://travis-ci.org/api-platform/core)
-[![Build status](https://ci.appveyor.com/api/projects/status/grwuyprts3wdqx5l?svg=true)](https://ci.appveyor.com/project/dunglas/dunglasapibundle)
-[![codecov](https://codecov.io/gh/api-platform/core/branch/master/graph/badge.svg)](https://codecov.io/gh/api-platform/core)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/92d78899-946c-4282-89a3-ac92344f9a93/mini.png)](https://insight.sensiolabs.com/projects/92d78899-946c-4282-89a3-ac92344f9a93)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/api-platform/core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/api-platform/core/?branch=master)
+Le but est de fournir une ou plusieurs propositions d'agencement vous permettant d'optimiser au mieux votre surface. L'outil vous propose aussi des astuces et conseils pour maximiser l'efficacité de vos zones, préserver les éco-systèmes et limiter les ressources notamment les apports en intrants et d'eau.
 
-The official project documentation is available **[on the API Platform website](https://api-platform.com)**.
+### Pour quelle type de culture cet outils a-t-il été pensé ?
 
-API Platform embraces open web standards (OpenAPI, JSON-LD, GraphQL, Hydra, HAL, JSONAPI, JWT, OAuth, HTTP...) and the [Linked Data](https://www.w3.org/standards/semanticweb/data)
-movement. Your API will automatically expose structured data in Schema.org/JSON-LD.
-It means that your API Platform application is usable **out of the box** with technologies of the semantic web.
+Principalement pour les **potagers de particulier**. Il souhaite être efficace sur les surfaces limitées (inférieur à 100m²). À l'heure actuelle, il n'y a aucune volonté d'élargir le logiciel à d'autre type de culture (mono-culture intensive, jardin d'ornement spécialisé, culture en serre, etc).
 
-It also means that **your SEO will be improved** because **[Google leverages these formats](https://developers.google.com/search/docs/guides/intro-structured-data)**.
+### À qui s'adresse cet outils ?
 
-Last but not least, the server component of API Platform is built on top of the [Symfony](https://symfony.com) framework,
-while client components leverage [React](https://reactjs.org/) (a [Vue.js](https://vuejs.org/) flavor is also available).
-It means than you can:
+Il s'adresse particuliérement aux personnes désireuses de concevoir leurs jardins et n'ayant pas une forte expérience du jardinage.
 
-* use **thousands of Symfony bundles and React components** with API Platform
-* integrate API Platform in **any existing Symfony or React application**
-* reuse **all your Symfony and React skills**, benefit of the incredible amount of documentation available
-* enjoy the popular [Doctrine ORM](http://www.doctrine-project.org/projects/orm.html) (used by default, but fully optional:
-  you can use the data provider you want, including but not limited to MongoDB and ElasticSearch)
+### D'où viennent les informations que vous fournissez ?
 
-Install
--------
+De nombreuses sources d'informations sont sollicités pour réaliser cet outil.
+Une liste exhaustive de ces sources est disponible sur la page idoine et visible sur le descriptif de l'information si celle-ci provient d'un ouvrage ou d'un site internet de référence.
+Un groupe de personnes d'expériences diverses participent aussi activement à la contribution à la base de données de ce site.
 
-[Read the official "Getting Started" guide](https://api-platform.com/docs/distribution).
+### Quel est votre vision de la conception de ces jardins ?
 
-Credits
--------
+L'idée est de proposer au sein d'un outil informatique **les concepts fondamentaux de la culture**, les enseignements inspirés de **la permaculture** et une approche moderne de **l'écologie**.
 
-Created by [Kévin Dunglas](https://dunglas.fr). Commercial support available at [Les-Tilleuls.coop](https://les-tilleuls.coop).
+### Je ne suis pas d'accord avec une information fournie par votre site !
+
+Il se peut que vous soyez en désaccord avec les conseils proposés par le site, n'hésitez pas à nous remonter votre avis via les formulaires de retour d'expériences proposés. Nous tâcherons de les intégrer dans notre base de connaissance si cela est possible.
+
+### Quelles garanties ai-je à utiliser cet outil ?
+
+Aucune ! Cet outil fourni des indications, rien de plus. Il vous indiquera les bonnes pratiques mais la nature est régie par des concepts plus complexes que ce que peux vous fournir un programme informatique. Cependant, il vous permettra d'éviter quelques écueils, de profiter de conseils de jardiniers chevronnés et d'en apprendre plus sur la plantation, la nature et l'écologie.
+
+### Les rendements indiqués sont ils atteignables ?
+
+Basé sur des calculs de moyennes les rendements indiqués ne sont là qu'à titre d'indications. Même en suivant scrupuleusement les règles, il se peut que vos récoltes soient plus maigres que prévu.
+Cependant, il se peut aussi que vos récoltes dépassent largement les rendements indiqués !
+L'outils vous permets d'indiquer vos préférences en matière de récolte, vous pouvez donc influencer la conception pour maximiser vos chances d'atteindre le rendement minimal que vous espériez.
+
+### Version standalone
+
+La première version a pour but de fournir un outil utilisable en local sur votre machine. Bien que requérant quelques compétences en informatique, il vous sera possible d'utiliser l'outil sans connexion internet.
+
+Il vous faudra cenpendant disposer de Docker et Docker Compose.
+
+### Installation
+
+S'appuyant sur l'excellent framework [API Platform](https://github.com/api-platform/api-platform), lancez le projet à l'aide des commandes suivantes :
+
+```bash
+$ docker-compose pull # Télécharge les images nécessaires au projet
+```
+
+## Usage
+
+```bash
+$ docker-compose up -d # Lance les conteneurs en mode "Démon"
+```
+
+## License
+
+Exegi est sous la licence [MIT License](LICENSE), en accord avec la licence des produits utilisés [API Platform](https://github.com/api-platform/api-platform/blob/master/LICENSE).
