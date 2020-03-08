@@ -46,18 +46,27 @@ Il vous faudra cenpendant disposer de Docker et Docker Compose.
 
 ### Installation
 
-S'appuyant sur l'excellent framework [API Platform](https://github.com/api-platform/api-platform), lancez le projet à l'aide des commandes suivantes :
+Lancez le projet à l'aide des commandes suivantes :
 
 ```bash
-$ docker-compose pull # Télécharge les images nécessaires au projet
+$ make install # Télécharge les images nécessaires au projet et construit les dépendances
 ```
 
 ## Usage
 
 ```bash
-$ docker-compose up -d # Lance les conteneurs en mode "Démon"
+$ make start # Lance les conteneurs en mode "Démon"
+```
+
+## Tests
+
+```bash
+$ make test # Lance les tests
 ```
 
 ## License
 
-Exegi est sous la licence [MIT License](LICENSE), en accord avec la licence des produits utilisés [API Platform](https://github.com/api-platform/api-platform/blob/master/LICENSE).
+Exegi est sous la licence [MIT License](LICENSE), en accord avec la licence des produits utilisés.
+
+-   [React](https://github.com/facebook/react/blob/master/LICENSE)
+-   [Symfony](https://github.com/symfony/symfony/blob/master/LICENSE)
