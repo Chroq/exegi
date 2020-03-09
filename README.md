@@ -6,11 +6,11 @@ Exegi est un outil de **design de surface végétale**. Orienté vers les synerg
 
 Le but est de fournir une ou plusieurs propositions d'agencement vous permettant d'optimiser au mieux votre surface. L'outil vous propose aussi des astuces et conseils pour maximiser l'efficacité de vos zones, préserver les éco-systèmes et limiter les ressources notamment les apports en intrants et d'eau.
 
-### Pour quelle type de culture cet outils a-t-il été pensé ?
+### Pour quelle type de culture cet outil a-t-il été pensé ?
 
 Principalement pour les **potagers de particulier**. Il souhaite être efficace sur les surfaces limitées (inférieur à 100m²). À l'heure actuelle, il n'y a aucune volonté d'élargir le logiciel à d'autre type de culture (mono-culture intensive, jardin d'ornement spécialisé, culture en serre, etc).
 
-### À qui s'adresse cet outils ?
+### À qui s'adresse cet outil ?
 
 Il s'adresse particuliérement aux personnes désireuses de concevoir leurs jardins et n'ayant pas une forte expérience du jardinage.
 
@@ -36,7 +36,7 @@ Aucune ! Cet outil fourni des indications, rien de plus. Il vous indiquera les b
 
 Basé sur des calculs de moyennes les rendements indiqués ne sont là qu'à titre d'indications. Même en suivant scrupuleusement les règles, il se peut que vos récoltes soient plus maigres que prévu.
 Cependant, il se peut aussi que vos récoltes dépassent largement les rendements indiqués !
-L'outils vous permets d'indiquer vos préférences en matière de récolte, vous pouvez donc influencer la conception pour maximiser vos chances d'atteindre le rendement minimal que vous espériez.
+L'outil vous permets d'indiquer vos préférences en matière de récolte, vous pouvez donc influencer la conception pour maximiser vos chances d'atteindre le rendement minimal que vous espériez.
 
 ### Version standalone
 
