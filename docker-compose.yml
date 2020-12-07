@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  php:
+    build: api
+    volumes:
+      - .:/app
+    command: "/usr/local/bin/symfony server:start --port 8080"
+    ports:
+      - 8080:8080
+    env_file: ./api/.env
